@@ -3,6 +3,7 @@ import { miaHandleRequest } from "https://raw.githubusercontent.com/aimuz/mia-co
 Deno.serve((req: Request) =>
   miaHandleRequest(req, {
     url: "go.aimuz.me",
+    quiet: false,
     packages: [
       {
         prefix: "termi",
