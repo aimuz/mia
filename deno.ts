@@ -9,6 +9,10 @@ Deno.serve((req: Request) =>
         prefix: "termi",
         repo: "https://github.com/aimuz/termi",
       },
+      {
+        prefix: "transy",
+        repo: "https://github.com/aimuz/transy",
+      },
     ],
   })
 );
