@@ -13,6 +13,10 @@ Deno.serve((req: Request) =>
         prefix: "transy",
         repo: "https://github.com/aimuz/transy",
       },
+      {
+        prefix: "vdig",
+        repo: "https://github.com/aimuz/vdig",
+      },
     ],
   })
 );
